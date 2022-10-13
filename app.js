@@ -26,7 +26,7 @@ const toggleActivePlayer = function () {
 };
 
 const checkScore = function () {
-  if (totalScore[currPlayer] < 30) {
+  if (totalScore[currPlayer] < 100) {
     return true;
   }
   return false;
