@@ -82,4 +82,5 @@ newBtn.addEventListener('click', function () {
   score = 0;
   currPlayer = 0;
   totalScore = [0, 0];
+  diceImage.classList.add('hidden');
 });
